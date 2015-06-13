@@ -2,6 +2,10 @@
 	display: none;
 }
 
+.sapMShellBG {
+	background-color: #859C50;
+}
+
 .welcomePageBackgroundStyle {
 	background-image: url('/img/background.png');  
 	background-attachment: fixed;

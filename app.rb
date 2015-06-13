@@ -20,10 +20,11 @@ end
 
 def send_mail(data)
   # binding.pry
-  RestClient.post "https://api:key-5e21b020fb563e7934063d5758ac3806"\
-  "@api.mailgun.net/v3/sandbox9875516d31544ebb87a2892b834cc82e.mailgun.org/messages",
-  :from => "admin@simple-cart.herokuapp.com",
+  RestClient.post "https://api:key-0c8e3ac5e7f7d1a4282333f2d91801b1"\
+  "@api.mailgun.net/v3/sandbox746de4cce1de4b0398fdbf1eac9bf632.mailgun.org/messages",
+  :from => "owner@gaprod.herokuapp.com",
   :to => data['userMail'],
+  :cc => "kward@gaprod.com.au",
   :subject => "Thank you for shopping with us",
   :html => list_purchase(data)
 end

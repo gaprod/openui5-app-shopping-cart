@@ -58,7 +58,7 @@
 							path : 'Price',
 							formatter : 'util.Formatter.price'
 						}"
-						numberUnit="USD"
+						numberUnit="AUD"
 						press="handleProductListItemPress"
 						iconDensityAware="false" >
 						<attributes>

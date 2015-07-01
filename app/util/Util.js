@@ -8,7 +8,7 @@ util.Util = {
 	},
 
 	updateModel: function(oView) {
-		var sSheetsUrl = "10krPWnvWXQjKXeZmZhxhINAsdWL7tTUNpNfOEJ9QqIo";
+		var sSheetsUrl = "1SiKydCaik4MXYBxDLErLKe2o7OhTyXrTUO_bxbu-bSY";
 
 		openui5.module.SheetAsModel.parseSheets(sSheetsUrl, function(data) {
       		var oModel = new sap.ui.model.json.JSONModel();

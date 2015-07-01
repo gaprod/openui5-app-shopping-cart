@@ -41,7 +41,7 @@ def list_purchase(data)
               ($#{entry[-1]['Price']} each)</li>"
   end
   html += "</ul><hr>\
-           <a href='http://simple-cart.herokuapp.com/'>Simple Cart - a simple yet robust e-commerce solution</a>\
+           <a href='https://gaprod.herokuapp.com/'>Welcome to Gaprod</a>\
            </body></html>"
   return html
 end
